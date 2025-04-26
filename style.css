@@ -1,0 +1,43 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+  }
+  header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  header img {
+      width: 72%; 
+      height: 300px; 
+      object-fit: cover; 
+      border-radius: 20px;
+  }
+  
+  .conteudo {
+    text-align: justify;
+    max-width: 1300px;
+    margin: auto;
+  }
+  .paragrafos {
+    margin-bottom: 30px;
+  }
+  .imagens-laterais {
+    float: right;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .imagens-laterais img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  footer {
+    background: #eee;
+    text-align: center;
+    padding: 2px;
+  }
